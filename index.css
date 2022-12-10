@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body,
+hmtl {
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(37, 62, 200), rgb(74, 199, 215));
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  max-width: 100%;
+  height: 10%;
+  -webkit-box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.1);
+}
+
+.hrefs {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+
+}
+
+nav a {
+  margin-right: 4%;
+  color: #fff;
+  font-size: max(1.3vw, 8px);
+}
+
+.logo {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+nav .logo img {
+  max-width: 45%;
+
+}
+
+.navLinks2:hover {
+  background-color: rgba(0, 0, 155, 0.205);
+}
+
+.navLinks2 {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1% 3% 1% 3%;
+}
+
+.dark {
+  display: flex;
+  margin-right: 7%;
+  justify-content: right;
+  align-items: center;
+}
+
+.dark a {
+  color: black;
+}
+
+
+.indeximg {
+  position: absolute;
+  width: 98%;
+  bottom: 2%;
+  min-width: 20%;
+}
+
+.indeximg img {
+  float: right;
+  max-width: 60%;
+}
+
+.landtext {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  max-width: 70%;
+}
+
+.landinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.landinfo h1 {
+  font-size: max(3.5vw, 30px);
+
+  color: darkblue;
+}
+
+.landinfo p {
+  color: darkblue;
+  font-size: max(1.5vw, 15px);
+  margin-top: 3%;
+
+}
+
+.process {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 90%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 160px;
+  margin: 0% 2% 4% 2%;
+  min-height: 60%;
+  max-width: 40%;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.card h3 {
+  display: flex;
+  font-size: max(1.4vw, 16px);
+  text-align: center;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.card p {
+  display: flex;
+  font-size: max(1.2vw, 12px);
+  margin-top: 10px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.just {
+  margin-bottom: 10px;
+}
+
+.card img {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doar {
+  display: flex;
+  flex-direction: row;
+  max-width: 93%;
+  max-height: 70%;
+  margin-bottom: 5%;
+  justify-content: center;
+
+}
+
+.info2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 90%;
+  min-width: 60%;
+  background-color: #f0f8ff;
+  border-radius: 20px;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.info2 h2 {
+  display: flex;
+  font-size: max(1.8vw, 16px);
+}
+
+.info2 p {
+  display: flex;
+  font-size: max(1.4vw, 12px);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.cat {
+  display: flex;
+  max-width: 30%;
+
+}
+
+.cat img {
+  margin-left: 12%;
+  min-width: 90%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-height: 15%;
+  max-width: 100%;
+  margin-top: 1.5%;
+  background-color: rgba(240, 248, 255, 0.11);
+  -webkit-box-shadow: 0px -6px 9px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px -6px 9px -1px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  display: flex;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  justify-content: center;
+  font-size: max(1vw, 10px);
+
+}
+
+.logofooter {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+
+}
+
+footer img {
+  max-width: 10%;
+}

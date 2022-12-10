@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+thead tr,
+th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+table,
+tr,
+td {
+  border: 2px solid black;
+}
+
+td {
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgba(218, 27, 27, 0.414);
+  padding: 5px;
+}
